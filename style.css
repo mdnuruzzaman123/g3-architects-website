@@ -20,6 +20,17 @@
     font-weight: 600;
     border: none;
 }
+.nav-title{
+    color:#131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 30px 0px;
+}
 
 /* header section styles */
 
@@ -32,11 +43,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    color:#131313;
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 nav > ul {
     display: flex;
 }
@@ -69,12 +76,6 @@ nav li a {
     font-size: 4rem;
     font-weight: 700;
     margin-top: 20px;
-}
-.banner-description{
-    color: #727272;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 30px 0px;
 }
 .banner-img{
     width: 100%;
@@ -124,6 +125,30 @@ main{
     font-weight: 400;
     margin-bottom: 30px;
 }
+/* facts styles */
+.facts-card-conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.facts-card-conteiner .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 45px 35px 60px 35px;
+    margin-top: 100px;
+}
+.facts-card-conteiner .card-stats{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top:5px ;
+}
+.facts-card-conteiner .card-title{
+    color: #727272;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
 
 /* responsive styles */
 /* mobile styles */
@@ -132,7 +157,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .feature-section{
+    nav, .feature-section, .facts-card-conteiner{
         flex-direction: column;
     }
     nav li{
@@ -153,7 +178,7 @@ main{
     .feature-content-description {
         width: 300px;
     }
-
+    
 }
 /* tab styles */
 
@@ -161,7 +186,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .feature-section{
+    nav, .feature-section, .facts-card-conteiner{
         flex-direction: column;
     }
     nav li{
