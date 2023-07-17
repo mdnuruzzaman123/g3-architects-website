@@ -353,12 +353,12 @@ main{
     .footer{
         text-align: center;
         border-radius: 6px;
-        font-size: 1rem;
-        margin:0px 40px 30px ;
+        font-size: .8rem;
+        margin:0px 30px 30px ;
         padding:8px 40px;
     }
 }
-}
+
 
 
 
